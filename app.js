@@ -1,12 +1,8 @@
-var orage = 100;
-var apple = 120;
+var i;
+var num = 0;
 
-if (orange < apple){
-	alert('みかんをの値段りんごより安い');
+for(i = 1; i < 11; i++){
+	num = num +i;
 }
-else if (orange == apple){
-	alert('みかんとりんごが同じ値段');
-}
-else{
-	alert('みかんの値段がりんごより高い');
-}
+
+alert('１から１０まで足し算した結果は' + num + 'です');
